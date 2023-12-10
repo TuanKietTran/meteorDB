@@ -1,0 +1,21 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/kustomization.json": "file:///Users/ducth/PycharmProjects/cangio_weather_nowcasting/kubernetes/postgres.yaml",
+        "https://raw.githubusercontent.com/compose-spec/compose-spec/master/schema/compose-spec.json": "file:///Users/ducth/PycharmProjects/cangio_weather_nowcasting/scripts/devcontainer.yaml"
+    },
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 30001,
+            "driver": "PostgreSQL",
+            "name": "local",
+            "database": "postgres",
+            "username": "postgres",
+            "password": "password"
+        }
+    ],
+    "flake8.importStrategy": "fromEnvironment",
+    "black-formatter.importStrategy": "fromEnvironment",
+    "isort.importStrategy": "fromEnvironment"
+}

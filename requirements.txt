@@ -1,0 +1,9 @@
+apache-airflow == 2.7.3
+
+# Supporting libraries
+apache-airflow-providers-sftp[openlineage]
+apache-airflow-providers-postgres[common.sql, openlineage]
+
+arm_pyart
+
+-c "https://raw.githubusercontent.com/apache/airflow/constraints-2.7.3/constraints-3.11.txt"
