@@ -1,6 +1,8 @@
 attrs==22.1.0
+alembic
 annotated-types
 anyio
+boto3
 click
 fastapi
 h11
@@ -12,6 +14,7 @@ python-dotenv
 PyYAML
 sniffio
 starlette
+SQLAlchemy
 typing_extensions
 uvicorn
 uvloop
